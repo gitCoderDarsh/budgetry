@@ -1,12 +1,11 @@
 import React from 'react'
-import './App.css'
-import HelloWorld from './HelloWorld';
+import Register from './components/Register/Register';
 
 function App() {
 
   return (
     <>
-      <HelloWorld />
+      <Register />
     </>
   )
 }

@@ -1,8 +1,11 @@
 import express from 'express';
 import cors from 'cors';
+import connectDB from './db.js';
 
 const app = express();
 const port = 3001;
+
+connectDB();
 
 app.use(cors());
 
@@ -12,7 +15,7 @@ app.get('/', (req,res) => {
 
 app.get('/api/greet', (req,res) => {
     res.json({
-        "text":"this is darsh"
+        "text":"this is a project yeah"
     })
 });
 

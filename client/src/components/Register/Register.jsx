@@ -33,7 +33,7 @@ function Register() {
     <div className="formHolder">
       <div className="form">
         <h1 className="head">Register</h1>
-        <form onClick={handleSubmit}>
+        <form onSubmit={handleSubmit}>
           <input type="text" placeholder="Username" id="userName" onChange={handleChange}/>
           <br />
           <input type="email" placeholder="Email" id="email" onChange={handleChange}/>
